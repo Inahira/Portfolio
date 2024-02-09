@@ -43,7 +43,7 @@
         margin-left: auto;
         margin-right: auto;
         padding: 15px;
-        font-size:2.75vw;
+        font-size:3.225vw;
     }
     .about-container {
         display: none;
@@ -71,7 +71,7 @@
     }
     .projects-disc {
         grid-template-columns: repeat(auto-fill, minmax(calc(66.67% - 20px), 1fr));
-        width: 90%;
+        width: 100%;
     }
 
 

@@ -47,9 +47,17 @@ li a {
     text-decoration: none;
     text-align: right;
 }
+@keyframes glowing {
+    0% {text-shadow: 0 0 10px #f2aa4cff;}
+    50% {text-shadow: 0 0 25px #f2aa4cff;}
+    100% {text-shadow: 0 0 30px #f2aa4cff;}
+}
 li a:hover {
-    color: #696667ff;
+    
+    color: rgb(143, 140, 141);
+   
     transition: ease 0.5s;
+    animation: glowing 2s linear infinite;
 }
 .home {
     display: flex;
@@ -259,7 +267,6 @@ img {
    /*background-color: black;*/
    display: flex;
    justify-content: left;
-    width:85%;
     margin-left: auto;
     margin-right: auto;
     font-size: larger;
@@ -270,14 +277,22 @@ img {
     text-decoration: none; 
     text-align: right;
     color: rgba(240, 209, 169, 0.568);
-    font-size: 22.5px;
+    font-size: 22.px;
     
 }
 .card-heading {
-    padding: 15px;
+    padding: 10px;
     text-align: left;
    color: #696667ff;
 }
+.card-paragraph p {
+    font-size: 17px;
+    text-align: left;
+    color: #706f6f98;
+    padding: 5px;
+}
+
+
 
 /*style for slid-show */
 * {box-sizing:border-box}
