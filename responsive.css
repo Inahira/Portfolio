@@ -17,13 +17,16 @@
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
+        text-align: left;
     }
     .section-paragraph {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
+        text-align: left;
+    }
+    #para {
+        text-align: left;
     }
     .section-paragraph-2 {
         width: 100%;
@@ -32,10 +35,8 @@
         text-align: center;
     }
     .buttons {
-        display: flex;
-        justify-content: center;
         width: 100%;
-        margin-left: auto;
+        margin-left: 20px;
         margin-right: auto;
     }
     .buttons button {
